@@ -20,6 +20,10 @@ img {
   max-width: 500px;
   height: auto;
 }
+
+div {
+  overflow-x: hidden;
+}
 .pageContent1 {
   background-color: rgb(43, 146, 255);
   margin: -1%;
