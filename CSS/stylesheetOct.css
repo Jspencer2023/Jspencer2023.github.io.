@@ -38,6 +38,8 @@ div {
   background-color: white;
   margin: -1%;
   padding: 20px;
+  display: flex;
+  justify-content: center;
 }
 .pageContent3 {
   background-color: red;
