@@ -94,17 +94,16 @@
 
     <div class="pageContent4">
       <form action="https://api.web3forms.com/submit" method="POST">
-
-    <input type="hidden" name="access_key" value="50a7a165-0db6-4a58-b90b-490770370a0e">
-
-    <input type="text" name="name" required>
-    <input type="email" name="email" required>
-    <textarea name="message" required></textarea>
-    <input type="hidden" name="redirect" value="https://taethebarber.com">
-
-    <button type="submit">Submit Form</button>
-
-</form>
+        <input type="hidden" name="apikey"  value="50a7a165-0db6-4a58-b90b-490770370a0e">
+        <label for="fname">Full Name:</label>
+        <input type="text" name="name" required><br>
+        <label for="email0">E-mail:</label>
+        <input type="email" name="email" required><br>
+        <label for="message0">Message:</label>
+        <textarea name="message" required>leave a message here!</textarea>
+        <div class="h-captcha" data-captcha="true"></div>
+        <button type="submit">Submit Form</button>
+    </form>
     
     <script src="https://web3forms.com/client/script.js" async defer></script>
       </div>
